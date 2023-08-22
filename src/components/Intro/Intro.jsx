@@ -26,7 +26,7 @@ const Intro = () => {
       {/* left name side */}
       <div className="i-left">
         <div className="i-name">
-          {/* yahan change hy darkmode ka */}
+       
           <span style={{ color: darkMode ? "white" : "" }}>Hy! I Am</span>
           <span>Hyzeah Achungha</span>
           <span>
@@ -40,7 +40,7 @@ const Intro = () => {
         {/* social icons */}
         <div className="i-icons">
           <a href="https://github.com/HyzeahAchungha"><img src={Github} alt="" /></a>
-          <img src={LinkedIn} alt="" />
+         <a href="https://linkedin.com/in/hyzeah-achungha-2b6253239"> <img src={LinkedIn} alt="" /></a>
           <img src={Instagram} alt="" />
         </div>
       </div>

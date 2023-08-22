@@ -6,7 +6,7 @@ import Glasses from "../../img/glasses.png";
 import Humble from "../../img/humble.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
-import Resume from './resume.pdf';
+
 
 const Services = () => {
   // context
@@ -27,11 +27,11 @@ const Services = () => {
         <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
         <span>services</span>
         <span>
-          Lorem ispum is simpley dummy text of printing of printing Lorem
+          I work with HTML,CSS, JAVASCRIPT, SQL, React Native
           <br />
-          ispum is simpley dummy text of printing
+          React Js NOde js and socket.io.
         </span>
-        <a href={Resume} download>
+        <a href="" download>
           <button className="button s-button">Download CV</button>
         </a>
         <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
@@ -72,7 +72,7 @@ const Services = () => {
             emoji={Humble}
             heading={"UI/UX"}
             detail={
-              "Lorem ispum dummy text are usually use in section where we need some random text"
+              "Figma, Adobe photoshop"
             }
             color="rgba(252, 166, 31, 0.45)"
           />

@@ -2,9 +2,7 @@ import React, { useContext } from "react";
 import "./Works.css";
 import Datagirltechlogo from "../../img/Datagirltechlogo.png";
 import Africanwitt from "../../img/Africanwitt.png";
-// import Amazon from "../../img/amazon.png";
-// import Shopify from "../../img/Shopify.png";
-// import Facebook from "../../img/Facebook.png";
+
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
 import {Link} from 'react-scroll'
@@ -68,6 +66,7 @@ const Works = () => {
           <div className="w-secCircle">
             <img src={Africanwitt} alt="" width={'80%'}/>
           </div>
+          
         </motion.div>
         {/* background Circles */}
         <div className="w-backCircle blueCircle"></div>
