@@ -83,14 +83,7 @@ const Portfolio = () => {
             </a>
           </div>
         </SwiperSlide>
-        <SwiperSlide>
-          <div className="image-container">
-            <a href="https://calculator-age-six.vercel.app/">
-              <img src={calculator} alt="" width={'20%'} />
-              <button class="overlay-text">View live demo</button>
-            </a>
-          </div>
-        </SwiperSlide>
+        
       </Swiper>
     </div>
   );
