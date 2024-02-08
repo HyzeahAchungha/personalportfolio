@@ -14,6 +14,7 @@ import ecommerce from "../../img/e-commerece.png";
 import calculator from "../../img/age.png";
 import travel from "../../img/beta.png";
 import socials from "../../img/achungha.png";
+import uncoventional from "../../img/unconventional.png";
 import { themeContext } from "../../Context";
 SwiperCore.use([Autoplay, EffectFade, Navigation, Pagination]); // Enable required Swiper modules
 
@@ -30,7 +31,7 @@ const Portfolio = () => {
       {/* slider */}
       <Swiper
       spaceBetween={5}
-      slidesPerView={2}
+      slidesPerView={4}
       grabCursor={true}
       effect="fade"
       loop={true}
@@ -83,7 +84,14 @@ const Portfolio = () => {
             </a>
           </div>
         </SwiperSlide>
-        
+        <SwiperSlide>
+          <div className="image-container">
+            <a href="https://data-girl-calculator-app.vercel.app/">
+              <img src={uncoventional} alt="" width={'20%'} />
+              <button class="overlay-text">View live demo</button>
+            </a>
+          </div>
+        </SwiperSlide>
       </Swiper>
     </div>
   );

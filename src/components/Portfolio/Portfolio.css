@@ -1,7 +1,8 @@
 .portfolio {
   display: flex;
   align-items: center;
-  justify-content: center;
+ padding-left: 20%;
+  align-items: center;
   flex-direction: column;
   height: 70vh;
 
