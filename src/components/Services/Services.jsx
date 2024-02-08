@@ -27,7 +27,7 @@ const Services = () => {
         <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
         <span>services</span>
         <span>
-          I work with HTML,CSS, JAVASCRIPT, SQL, React Native
+          I work with HTML,CSS, JAVASCRIPT, SQL, React Native, Flutter
           <br />
           React Js NOde js and socket.io.
         </span>
@@ -59,7 +59,7 @@ const Services = () => {
           <Card
             emoji={Glasses}
             heading={"Developer"}
-            detail={"Html, Css, JavaScript, React, Nodejs, Express $ React Native"}
+            detail={"Html, Css, Tailwind,JavaScript, React, Nodejs, Express,Flutter $ React Native"}
           />
         </motion.div>
         {/* 3rd */}
