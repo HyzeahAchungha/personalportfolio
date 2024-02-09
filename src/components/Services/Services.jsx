@@ -31,8 +31,8 @@ const Services = () => {
           <br />
           React Js NOde js and socket.io.
         </span>
-        <a href="" download>
-          <button className="button s-button">Download CV</button>
+        <a href="https://docs.google.com/document/d/1Hfuy0BJ7KR3ubjsvP21Pei4npxpbYL7jQAxFbbWfcTE/edit?usp=sharing">
+          <button className="button s-button">View CV</button>
         </a>
         <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
       </div>
